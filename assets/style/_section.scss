@@ -1,0 +1,42 @@
+section {
+    text-align: center;
+    margin-bottom: 100px;
+    .header {
+        margin-top: 30px;
+        p {
+            margin-top: 20px;
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+    }
+
+    .master-card {
+        height: 500px;
+        background-color: #fff;
+        margin-top: 200px;
+        padding: 30px;
+        border-radius: 25px;
+        .foto {
+            margin-top: -150px;
+            margin-bottom: 20px;
+        }
+        .isi {
+            margin-top: 20px;
+            text-align: left !important;
+            .item-mentor {
+                img {
+                    float: left;
+                    margin-right: 6px;
+                }
+                p {
+                    margin-top: -12px
+                }
+            }
+        }
+    }
+    .basic-card {
+        @extend .master-card;
+        height: 600px;
+        margin-top: 150px;
+    }
+}

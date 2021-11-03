@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar SASS</title>
+
+    <link rel="stylesheet" href="assets/style/main.css" type="text/css">
+
+    <!-- import font ropa sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Ropa+Sans&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Awal Navigasi -->
+    <nav class="navbar navbar-expand-md navbar-light sticky-top bg-light opacity-bg shadow bg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo.png" class="circle" alt="Gambar malas ngoding" width="40" height="40" alt=""
+                    loading="lazy">
+            </a>
+            <a class="navbar-brand" href="#">OEC</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto w-100 justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link hover active" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hover" href="#">Kursus</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hover" href="#">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Akhir Navigasi -->
+
+    <!-- Awal Jumbotron -->
+    <div class="jumbotron text-center bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-5">
+
+                </div>
+                <div class="col">
+                    <h1>Solusi Pemanfaatan Gawai Secara Optimal dalam Belajar</h1>
+                    <p class="fs-3">OEC adalah platform pendidikan informal yang menawarkan beraneka ragam ilmu dalam
+                        beberapa kategori pendidikan.</p>
+                    <button type="button" class="btn btn-dasar btn-lg">Ayo Mulai!</button>
+                </div>
+            </div>
+
+            <div class="rating">
+                <img src="assets/img/rating.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Jumbotron -->
+
+    <section>
+        <div class="header">
+            <h1>Mengapa kami?</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, voluptatum! Quod sequi, culpa dolorum,
+                aperiam totam odit porro atque similique vero, blanditiis corporis sapiente obcaecati cum aut nisi
+                libero maiores.
+            </p>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="master-card shadow">
+                        <img src="assets/img/1.png" class="foto" alt="">
+                        <h3>Michella Aurelia</h3>
+
+                        <div class="isi">
+                            <p>Keahlian</p>
+                            <div class="item-mentor">
+                                <img src="assets/img/check.png" alt="">
+                                <p>HTML, CSS, PHP, NodeJs, ReactJs</p>
+                            </div>
+
+                            <p>Pengalaman</p>
+                            <div class="item-mentor">
+                                <img src="assets/img/check.png  " alt="">
+                                <p>Frontend Dev in PT. Satnusa Persada</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="master-card basic-card shadow">
+                        <img src="assets/img/2.png" class="foto" alt="">
+                        <h3>Sandro Bernard N</h3>
+
+                        <div class="isi">
+                            <p>Keahlian</p>
+                            <div class="item-mentor">
+                                <img src="assets/img/check.png" alt="">
+                                <p>Kotlin, Golang, PHP, Java, Ruby</p>
+                            </div>
+
+                            <p>Pengalaman</p>
+                            <div class="item-mentor">
+                                <img src="assets/img/check.png  " alt="">
+                                <p>Mobile Dev in olx.com, Backend Dev Dev in Agenship</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="master-card shadow">
+                        <img src="assets/img/3.png" class="foto" alt="">
+                        <h3>Jaufi Andrean</h3>
+
+                        <div class="isi">
+                            <p>Keahlian</p>
+                            <div class="item-mentor">
+                                <img src="assets/img/check.png" alt="">
+                                <p>MySQL, JavaScript, Phyton, C, C#, C++</p>
+                            </div>
+
+                            <p>Pengalaman</p>
+                            <div class="item-mentor">
+                                <img src="assets/img/check.png  " alt="">
+                                <p>Database Admin in Mitra Bukalapak, and Boomber Studio.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
